@@ -54,32 +54,7 @@ Class imbalance handled with `WeightedRandomSampler`.
 
 ---
 
-## Project structure
 
-```
-multimodal-fashion-classifier/
-│
-├── data/
-│   └── download.py              # Kaggle dataset download script
-│
-├── src/
-│   ├── dataset.py               # FashionDataset, get_transforms()
-│   ├── encoders.py              # ImageEncoder, TextEncoder
-│   ├── fusion.py                # GatedFusion module
-│   ├── model.py                 # MultiModalClassifier
-│   └── utils.py                 # build_text(), load_data(), helpers
-│
-├── train.py                     # Training loop + evaluation
-├── evaluate.py                  # Standalone test-set evaluation
-├── predict.py                   # Single-sample inference
-│
-├── checkpoints/                 # Saved model weights (gitignored)
-├── notebooks/
-│   └── exploration.ipynb        # EDA + prototyping
-│
-├── requirements.txt
-└── README.md
-```
 
 ---
 
