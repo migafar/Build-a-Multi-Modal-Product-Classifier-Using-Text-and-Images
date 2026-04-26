@@ -1,0 +1,11 @@
+
+Technical Requirements
+1
+transformers, torchvision
+
+BERT for text, ResNet for image
+
+2
+torch or tensorflow
+
+Custom multi-modal architecture
